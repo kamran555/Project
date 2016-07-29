@@ -1,0 +1,716 @@
+/* line 1, C:/Users/kamran/Desktop/Project/sass/_info.scss */
+#info {
+  background-color: #e5eef0;
+  min-height: 50px;
+  font-family: 'Karla', sans-serif;
+  color: #93a1a7;
+  min-height: 50px;
+  font-size: 13px;
+  padding-top: 15px; }
+  /* line 9, C:/Users/kamran/Desktop/Project/sass/_info.scss */
+  #info p {
+    display: inline-block;
+    letter-spacing: 1px; }
+  /* line 13, C:/Users/kamran/Desktop/Project/sass/_info.scss */
+  #info i {
+    font-size: 20px;
+    margin-right: 5px; }
+  /* line 17, C:/Users/kamran/Desktop/Project/sass/_info.scss */
+  #info .col-md-2 {
+    padding: 0; }
+
+/* line 1, C:/Users/kamran/Desktop/Project/sass/_menu.scss */
+#menu {
+  min-height: 75px;
+  background-color: white;
+  font-family: 'Karla', sans-serif;
+  color: #93a1a7;
+  font-size: 13px;
+  padding-top: 11px; }
+  /* line 8, C:/Users/kamran/Desktop/Project/sass/_menu.scss */
+  #menu li {
+    padding-right: 19px; }
+  /* line 11, C:/Users/kamran/Desktop/Project/sass/_menu.scss */
+  #menu li:last-child {
+    padding-right: 0px; }
+  /* line 14, C:/Users/kamran/Desktop/Project/sass/_menu.scss */
+  #menu a {
+    color: #83878e;
+    font-size: 15px; }
+  /* line 18, C:/Users/kamran/Desktop/Project/sass/_menu.scss */
+  #menu a:hover {
+    background-color: #009DF5;
+    border-radius: 30px;
+    color: white; }
+  /* line 23, C:/Users/kamran/Desktop/Project/sass/_menu.scss */
+  #menu .navbar-brand {
+    padding: 0px; }
+  /* line 26, C:/Users/kamran/Desktop/Project/sass/_menu.scss */
+  #menu img {
+    padding-top: 10px; }
+  /* line 29, C:/Users/kamran/Desktop/Project/sass/_menu.scss */
+  #menu h1 {
+    padding-right: 48px; }
+
+/* line 1, C:/Users/kamran/Desktop/Project/sass/_slide.scss */
+#slide {
+  background-color: #8d8d8d;
+  min-height: 750px;
+  font-family: 'Karla', sans-serif; }
+  /* line 5, C:/Users/kamran/Desktop/Project/sass/_slide.scss */
+  #slide h1 {
+    font-size: 55px;
+    color: #ffffff;
+    font-weight: bold;
+    padding-top: 310px;
+    margin-left: 48px; }
+  /* line 12, C:/Users/kamran/Desktop/Project/sass/_slide.scss */
+  #slide h4 {
+    font-size: 14px;
+    color: #FDFDFD;
+    text-transform: uppercase; }
+
+/* line 19, C:/Users/kamran/Desktop/Project/sass/_slide.scss */
+#slideBlog {
+  min-height: 310px;
+  background-color: #8d8d8d;
+  padding: 123px;
+  font-family: 'Karla', sans-serif; }
+  /* line 24, C:/Users/kamran/Desktop/Project/sass/_slide.scss */
+  #slideBlog h1 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    font-weight: bold; }
+  /* line 30, C:/Users/kamran/Desktop/Project/sass/_slide.scss */
+  #slideBlog p {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-weight: bold; }
+
+/* line 1, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+#content {
+  min-height: 655px;
+  padding-top: 75px;
+  font-family: 'Karla', sans-serif;
+  color: #93a1a7; }
+  /* line 6, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #content .vartical {
+    height: 6px; }
+  /* line 9, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #content .vartical2 {
+    height: 14px; }
+  /* line 12, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #content h5 {
+    line-height: 20px; }
+  /* line 16, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #content .row h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #23282f;
+    font-weight: 700;
+    padding: 0; }
+  /* line 23, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #content .row P {
+    font-size: 18px;
+    color: #54595f;
+    line-height: 24px; }
+  /* line 28, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #content .row p:last-child {
+    font-size: 14px;
+    padding: 15px 0px 40px 0px;
+    line-height: 24px; }
+  /* line 35, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #content .media-body h3 {
+    font-size: 20px;
+    color: #23282f; }
+  /* line 39, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #content .media-body h5 {
+    font-size: 14px;
+    line-height: 24px;
+    color: #54595f; }
+  /* line 45, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #content .media-left {
+    padding-right: 30px; }
+
+/* line 50, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+.buton, #features button, #price button, #services button, #services button:last-child {
+  background-color: #009DF5;
+  color: white;
+  border-radius: 20px;
+  width: 171px;
+  margin-top: 22px;
+  margin-left: 55px; }
+
+/* line 59, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+.imgHeight {
+  width: 581px;
+  height: 301px;
+  background-color: #8d8d8d; }
+
+/* line 65, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+.smallpict, .small2 {
+  width: 67px;
+  height: 67px;
+  background-color: #f7941d;
+  padding-top: 8px; }
+  /* line 70, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  .smallpict i, .small2 i {
+    color: white; }
+
+/* line 75, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+.small2 {
+  background-color: #e5eef0;
+  padding-left: 18px; }
+
+/* line 81, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+.paddingTop {
+  padding-top: 25px;
+  padding-left: 9px; }
+
+/* line 86, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+#slide2 {
+  min-height: 310px;
+  background-color: #8d8d8d;
+  padding: 123px;
+  font-family: 'Karla', sans-serif; }
+  /* line 91, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #slide2 h1 {
+    font-size: 48px;
+    color: #ffffff;
+    font-weight: 700;
+    font-weight: bold; }
+  /* line 97, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #slide2 p {
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: 400;
+    font-weight: bold; }
+
+/* line 105, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+#static {
+  padding-top: 99px;
+  min-height: 713px;
+  font-family: 'Karla', sans-serif; }
+  /* line 109, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #static h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #23282f; }
+  /* line 114, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #static h5 {
+    font-size: 18px;
+    color: #23282f; }
+  /* line 118, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #static p {
+    font-size: 14px;
+    color: #54595f;
+    line-height: 24px; }
+  /* line 123, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #static .line {
+    min-width: 100%;
+    border-bottom: 1px solid #e5eef0;
+    padding: 40px 0px 40px 0px; }
+  /* line 128, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #static h4 {
+    font-size: 60px;
+    color: #23282f;
+    margin-top: -10px; }
+  /* line 133, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #static .verticall {
+    height: 70px; }
+
+/* line 139, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+#clients {
+  font-family: 'Karla', sans-serif;
+  color: #93a1a7;
+  min-height: 467px;
+  background-color: #e5eef0; }
+  /* line 144, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #clients h1 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    padding-top: 75px; }
+  /* line 150, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #clients .col-md-1 {
+    padding: 0; }
+  /* line 153, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #clients p {
+    color: #54595f;
+    font-size: 15px; }
+  /* line 157, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #clients h6 {
+    padding-bottom: 35px;
+    left: 0; }
+  /* line 161, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #clients i {
+    color: black; }
+  /* line 164, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #clients .circle {
+    width: 132px;
+    height: 132px;
+    background-color: #f7941d;
+    border-radius: 100%;
+    margin-top: 195px; }
+
+/* line 174, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+#features {
+  min-height: 650px;
+  font-family: 'Karla', sans-serif;
+  color: #93a1a7; }
+  /* line 178, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #features h1 {
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    padding-top: 75px;
+    padding-bottom: 0px; }
+  /* line 185, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #features h5 {
+    color: #54595f;
+    font-size: 15px;
+    line-height: 24px; }
+  /* line 190, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #features p {
+    padding-bottom: 40px; }
+  /* line 193, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #features button {
+    margin-top: 40px;
+    margin-left: 11px; }
+  /* line 198, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #features img:first-child {
+    position: absolute;
+    padding: 30px 0px 0px 150px;
+    z-index: 1; }
+  /* line 203, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #features img:last-child {
+    position: absolute;
+    right: 0; }
+  /* line 210, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #features .media-left {
+    padding-right: 30px; }
+
+/* line 215, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+.red {
+  height: 200px;
+  border: 1px solid black; }
+
+/* line 220, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+.verticalSpacer {
+  height: 16px; }
+
+/* line 225, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+#price {
+  min-height: 724px;
+  font-family: 'Karla', sans-serif;
+  color: #93a1a7;
+  padding: 10px; }
+  /* line 230, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #price .col-md-3 {
+    padding-left: 22px; }
+  /* line 233, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #price h1 {
+    font-size: 30px;
+    color: #23282f;
+    padding-top: 78px;
+    font-weight: 700;
+    margin: 0; }
+  /* line 240, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #price h3 {
+    color: #23282f;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 37px;
+    margin-bottom: 11px; }
+  /* line 247, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #price hr {
+    padding-bottom: 17px; }
+  /* line 250, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #price p {
+    font-size: 15px;
+    color: #65686e;
+    margin-bottom: 42px;
+    line-height: 35px; }
+  /* line 256, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #price button {
+    width: 138px;
+    margin-top: 45px;
+    margin-left: 11px; }
+  /* line 262, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #price span {
+    color: #f7941d; }
+  /* line 265, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #price .line1 {
+    width: 100%;
+    height: 1px;
+    background-color: #e5eef0;
+    padding-left: 75px;
+    margin-bottom: 16px; }
+  /* line 272, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #price .line2 {
+    width: 20px;
+    height: 1px;
+    background-color: #f7941d;
+    padding-left: 30px; }
+
+/* line 280, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+.panel {
+  width: 100%;
+  min-height: 420px;
+  border: 1px solid #e5eef0;
+  margin-right: 5px;
+  border-radius: 0px;
+  text-align: center;
+  position: relative; }
+  /* line 288, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  .panel p:nth-child(4) {
+    line-height: 36px;
+    margin-top: 50px;
+    font-size: 10px; }
+  /* line 293, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  .panel img {
+    position: absolute;
+    left: 0px; }
+
+/* line 299, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+.pricePar {
+  line-height: 36px;
+  margin-top: 50px;
+  font-size: 10px; }
+
+/* line 305, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+.panel:hover {
+  box-shadow: 10px 10px 50px #888888;
+  blur-radius: 20px; }
+
+/* line 311, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+#team {
+  min-height: 690px;
+  background-color: #e5eef0;
+  font-family: 'Karla', sans-serif; }
+  /* line 315, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #team h1 {
+    font-size: 30px;
+    color: #23282f;
+    font-weight: 700; }
+  /* line 320, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #team h3 {
+    font-weight: 400; }
+  /* line 323, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #team .imgWidth {
+    width: 100%;
+    height: 270px;
+    margin: 0;
+    padding: 0; }
+  /* line 329, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #team h5 {
+    font-size: 14px;
+    color: #23282f;
+    font-weight: 400;
+    font-weight: bold; }
+  /* line 335, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #team .caption {
+    padding: 20px; }
+  /* line 338, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #team p {
+    color: #f69b37;
+    font-size: 13px;
+    font-weight: bold; }
+  /* line 343, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #team i {
+    color: #adbdc1;
+    margin-right: 5px; }
+  /* line 347, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #team .thumbnail {
+    padding: 0px;
+    margin-right: 25px; }
+
+/* line 353, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+.verticalSpac {
+  height: 74px; }
+
+/* line 357, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+.verticalSpac2 {
+  height: 20px; }
+
+/* line 362, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+#services {
+  font-family: 'Karla', sans-serif;
+  min-height: 320px; }
+  /* line 365, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #services h1 {
+    font-size: 30px;
+    font-weight: 500;
+    font-weight: bold;
+    color: #23282f; }
+  /* line 371, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #services span {
+    color: #f69b37; }
+  /* line 374, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #services .verticall {
+    height: 70px; }
+  /* line 377, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #services p {
+    font-size: 13px;
+    color: #58686c;
+    text-transform: uppercase; }
+  /* line 382, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #services button {
+    width: 141px;
+    padding: 10px;
+    margin-top: 50px;
+    margin-top: 10px;
+    margin-left: 0px; }
+  /* line 390, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #services button:last-child {
+    background-color: #f7941d;
+    width: 141px;
+    padding: 10px;
+    margin-top: 10px; }
+
+/* line 400, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+#blog {
+  font-family: 'Karla', sans-serif; }
+  /* line 402, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog .imgDiv {
+    width: 100%;
+    height: 334px;
+    background-color: #8d8d8d; }
+  /* line 407, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog .vartical {
+    height: 90px; }
+  /* line 410, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog .thumbnail {
+    border: 0px solid;
+    padding: 0px 47px 0px 0px; }
+  /* line 414, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog h3 {
+    font-weight: bold; }
+  /* line 417, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog h4 {
+    padding-left: 5px;
+    font-weight: bold; }
+  /* line 421, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog h5 {
+    color: #23282f;
+    font-weight: bold; }
+  /* line 425, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog span {
+    color: #f7941d; }
+  /* line 434, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog .caption {
+    padding: 0px 0px 40px 0px;
+    border-bottom: 1px solid #e5eef0; }
+    /* line 437, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+    #blog .caption h6 {
+      font-size: 15px;
+      color: #23282f;
+      padding-bottom: 30px; }
+    /* line 442, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+    #blog .caption .btn {
+      border-radius: 17px;
+      width: 141px;
+      background-color: #009DF5;
+      border: none; }
+    /* line 448, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+    #blog .caption p {
+      padding-bottom: 60px; }
+  /* line 452, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog .col-md-12 {
+    padding: 0; }
+  /* line 455, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog .col-md-8 {
+    padding: 0px; }
+  /* line 458, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog .col-md-4 {
+    padding: 0px; }
+  /* line 461, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog .badge {
+    background-color: white; }
+  /* line 464, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog i {
+    color: #8d8d8d; }
+  /* line 467, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog .verrticl {
+    height: 30px; }
+  /* line 470, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog .verrticl2 {
+    height: 20px; }
+  /* line 473, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog li {
+    border: none; }
+  /* line 476, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog .list-group-item {
+    padding: 10px 5px; }
+  /* line 479, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog .smallDiv {
+    width: 67px;
+    height: 67px;
+    background-color: #8d8d8d;
+    margin-bottom: 28px; }
+  /* line 485, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog .boton, #blog .boton2 {
+    width: 97px;
+    height: 40px;
+    padding: 5px;
+    margin: 5px;
+    background-color: #29c2e1;
+    border: none;
+    color: white; }
+  /* line 494, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog .boton2 {
+    width: 160px; }
+  /* line 498, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog .col-md-6 {
+    padding: 0; }
+  /* line 501, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog .pagination a {
+    margin: 5px;
+    padding: 10px 16px;
+    border: none;
+    background-color: #29c2e1; }
+  /* line 507, C:/Users/kamran/Desktop/Project/sass/_content.scss */
+  #blog .pagination a:hover {
+    background-color: #f7941d; }
+
+/* line 1, C:/Users/kamran/Desktop/Project/sass/_footer.scss */
+#footer {
+  min-height: 320px;
+  padding-top: 70px;
+  border-bottom: 1px solid #e5eef0;
+  position: relative; }
+  /* line 6, C:/Users/kamran/Desktop/Project/sass/_footer.scss */
+  #footer li {
+    list-style: none;
+    width: 50px; }
+  /* line 10, C:/Users/kamran/Desktop/Project/sass/_footer.scss */
+  #footer a {
+    color: #93a1a7;
+    font-size: 14px;
+    text-decoration: none; }
+  /* line 15, C:/Users/kamran/Desktop/Project/sass/_footer.scss */
+  #footer p {
+    color: #93a1a7; }
+  /* line 18, C:/Users/kamran/Desktop/Project/sass/_footer.scss */
+  #footer li {
+    padding-bottom: 10px; }
+  /* line 21, C:/Users/kamran/Desktop/Project/sass/_footer.scss */
+  #footer i {
+    color: #adbdc1;
+    font-size: 16px;
+    margin: 5px;
+    padding-left: 10px; }
+  /* line 27, C:/Users/kamran/Desktop/Project/sass/_footer.scss */
+  #footer button {
+    border: none;
+    border: none;
+    color: white;
+    background-color: #009DF5; }
+  /* line 33, C:/Users/kamran/Desktop/Project/sass/_footer.scss */
+  #footer .img {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    height: 105px;
+    bottom: 0; }
+
+/* line 43, C:/Users/kamran/Desktop/Project/sass/_footer.scss */
+#footerExtra {
+  min-height: 100px;
+  position: relative;
+  padding-top: 30px; }
+  /* line 47, C:/Users/kamran/Desktop/Project/sass/_footer.scss */
+  #footerExtra p {
+    color: #93a1a7;
+    font-size: 14px; }
+  /* line 51, C:/Users/kamran/Desktop/Project/sass/_footer.scss */
+  #footerExtra .img2 {
+    position: absolute;
+    width: 143px;
+    height: 108px;
+    right: 0px;
+    bottom: 0; }
+
+/* line 1, C:/Users/kamran/Desktop/Project/sass/_news.scss */
+#news {
+  font-family: 'Karla', sans-serif; }
+  /* line 3, C:/Users/kamran/Desktop/Project/sass/_news.scss */
+  #news h1 {
+    font-size: 30px;
+    color: #23282f;
+    font-weight: 700;
+    font-weight: bold; }
+  /* line 9, C:/Users/kamran/Desktop/Project/sass/_news.scss */
+  #news h5 {
+    font-size: 18px;
+    color: #23282f; }
+  /* line 13, C:/Users/kamran/Desktop/Project/sass/_news.scss */
+  #news .mainDiv {
+    background-color: #e5eef0;
+    min-height: 374px;
+    display: -webkit-box; }
+  /* line 18, C:/Users/kamran/Desktop/Project/sass/_news.scss */
+  #news .newsDiv {
+    background-color: #8d8d8d;
+    min-height: 374px;
+    display: -webkit-box; }
+  /* line 23, C:/Users/kamran/Desktop/Project/sass/_news.scss */
+  #news .secondColor {
+    background-color: #8d8d8d;
+    min-height: 374px;
+    background-color: #e5eef0;
+    display: -webkit-box;
+    font-family: 'Karla', sans-serif; }
+  /* line 30, C:/Users/kamran/Desktop/Project/sass/_news.scss */
+  #news .fullWidth {
+    width: 100%;
+    height: 100%;
+    padding: 27px 42px 20px 42px; }
+    /* line 34, C:/Users/kamran/Desktop/Project/sass/_news.scss */
+    #news .fullWidth h3 {
+      color: #23282f;
+      padding-bottom: 19px; }
+    /* line 38, C:/Users/kamran/Desktop/Project/sass/_news.scss */
+    #news .fullWidth h4 {
+      font-size: 20px;
+      font-weight: bold;
+      padding-bottom: 13px; }
+    /* line 43, C:/Users/kamran/Desktop/Project/sass/_news.scss */
+    #news .fullWidth p {
+      font-size: 14px;
+      color: #54595f;
+      padding-bottom: 30px; }
+    /* line 48, C:/Users/kamran/Desktop/Project/sass/_news.scss */
+    #news .fullWidth .newButton {
+      width: 139px;
+      height: 38px;
+      border: none;
+      margin: 0px; }
+  /* line 55, C:/Users/kamran/Desktop/Project/sass/_news.scss */
+  #news .secondColor:before {
+    content: "";
+    position: absolute;
+    bottom: -30px;
+    margin-left: 39%;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-top: 30px solid #e5eef0;
+    z-index: 1; }
+  /* line 67, C:/Users/kamran/Desktop/Project/sass/_news.scss */
+  #news .newsDiv:before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    margin-left: 150px;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 30px solid #e5eef0;
+    z-index: 1; }
+
+/*# sourceMappingURL=styleFirst.css.map */

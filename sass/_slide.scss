@@ -1,0 +1,36 @@
+#slide {
+    background-color: #8d8d8d;
+    min-height: 750px;
+    font-family: 'Karla', sans-serif;
+    h1 {
+        font-size: 55px;
+        color: #ffffff;
+        font-weight: bold;
+        padding-top: 310px;
+        margin-left: 48px;
+    }
+    h4 {
+        font-size: 14px;
+        color: $white;
+        text-transform: uppercase;
+    }
+}
+
+#slideBlog {
+    min-height: 310px;
+    background-color: #8d8d8d;
+    padding: 123px;
+    font-family: 'Karla', sans-serif;
+    h1 {
+        font-size: 48px;
+        color: #ffffff;
+        font-weight: 700;
+        font-weight: bold;
+    }
+    p {
+        font-size: 14px;
+        color: #ffffff;
+        font-weight: 400;
+        font-weight: bold;
+    }
+}
