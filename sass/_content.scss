@@ -60,6 +60,16 @@
                         width: 581px;
                         height: 301px;
                         background-color: #8d8d8d;
+                        overflow: hidden;
+                        object-fit: cover;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                            transition: 0.3s;
+                        }
+                        img:hover {
+                            transform: scale(1.05, 1.05);
+                        }
                     }
                     
                     .smallpict {
@@ -76,6 +86,7 @@
                         @extend .smallpict;
                         background-color: #e5eef0;
                         padding-left: 18px;
+                        position: relative;
                     }
                     
                     .paddingTop {
@@ -142,7 +153,6 @@
                             border-left: 2px solid $blue;
                             padding-left: 10px;
                         }
-                        
                         .color {
                             background-color: #e5eef0;
                         }
@@ -154,6 +164,11 @@
                         color: #93a1a7;
                         min-height: 467px;
                         background-color: #e5eef0;
+                        padding-bottom: 10px;
+                        img {
+                            width: 100%;
+                            height: 100%;
+                        }
                         h1 {
                             font-size: 30px;
                             color: black;
@@ -180,6 +195,7 @@
                             background-color: #f7941d;
                             border-radius: 100%;
                             margin-top: 195px;
+                            objectiv-fit: cover;
                         }
                     }
                     
@@ -195,6 +211,18 @@
                             padding-top: 75px;
                             padding-bottom: 0px;
                         }
+                        .rel {
+                            position: relative;
+                            padding-left: 180px;
+                        }
+                        img1 {
+                            position: absolute;
+                            right: 0px;
+                        }
+                        .img2 {
+                            position: absolute;
+                            bottom: 0px;
+                        }
                         h5 {
                             color: #54595f;
                             font-size: 15px;
@@ -208,20 +236,14 @@
                             margin-top: 40px;
                             margin-left: 11px;
                         }
-                        & img:first-child {
-                            position: absolute;
-                            padding: 30px 0px 0px 150px;
-                            z-index: 1;
-                        }
-                        & img:last-child {
-                            position: absolute;
-                            right: 0;
-                        }
-                        //                .col-md-4 {
-                        //                padding-left: 25px;
-                        //            }
                         .media-left {
                             padding-right: 30px;
+                        }
+                        .imgNew {
+                            position: absolute;
+                            padding-left: 0px;
+                            padding-top: 6px;
+                            padding-right: 15px;
                         }
                     }
                     

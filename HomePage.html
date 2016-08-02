@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <title>Document</title>
     <link rel="stylesheet" href="bootstrap-3.3.6-dist/css/bootstrap.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
     <script src="https://use.fontawesome.com/52ecee8f0a.js"></script>
     <link href='https://fonts.googleapis.com/css?family=Karla&subset=latin,latin-ext' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/styleFirst.css"> </head>
@@ -51,8 +53,32 @@
     </section>
     <section id="slide">
         <div class="container-fluid">
-            <h1 class="text-center"> BOOST UP YOUR LOCAL BUSINESS  </h1>
-            <h4 class="text-center">Lorem Ipsum is simply dummy text of the printing</h4> </div>
+            <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+                <!-- Indicators -->
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+                    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+                </ol>
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner" role="listbox">
+                    <div class="item active"> <img class="full" src="seven.jpg" alt="first">
+                        <div class="carousel-caption text-center">
+                            <h2> WORK HARD DREAM BIG </h2> </div>
+                    </div>
+                    <div class="item"> <img class="full" src="six.jpg" alt="second">
+                        <div class="carousel-caption">
+                            <h2>FOLOW YOUR DREAM</h2> </div>
+                    </div>
+                    <div class="item"> <img class="full" src="eight.jpg" alt="second">
+                        <div class="carousel-caption"> </div>
+                    </div>
+                </div>
+                <!-- Controls -->
+                <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span> <span class="sr-only">Previous</span> </a>
+                <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next"> <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span> <span class="sr-only">Next</span> </a>
+            </div>
+        </div>
     </section>
     <section id="content">
         <div class="container-fluid">
@@ -65,7 +91,7 @@
                             <p> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets </p>
                         </div>
                         <div class="col-md-12 ">
-                            <div class="imgHeight"> </div>
+                            <div class="imgHeight"> <img class="img-responsive" src="nine.jpg"> </div>
                         </div>
                     </div>
                     <div class="col-md-5">
@@ -131,13 +157,13 @@
                 </div>
                 <div class="col-md-5">
                     <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4">
-                        <div class="circle"></div>
+                        <div class="circle"> <img class="img-responsive img-circle" src="busines.jpg"> </div>
                     </div>
                     <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4">
-                        <div class="circle"></div>
+                        <div class="circle"> <img class="img-responsive img-circle" src="busines2.jpg"> </div>
                     </div>
                     <div class="col-md-4 col-xs-12 col-sm-12 col-lg-4">
-                        <div class="circle"></div>
+                        <div class="circle"> <img class="img-responsive img-circle" src="busines3.jpg"> </div>
                     </div>
                 </div>
             </div>
@@ -155,7 +181,7 @@
                         <div class="media">
                             <div class="media-left ">
                                 <a href="#">
-                                    <div class="smallpict"></div>
+                                    <div class="smallpict text-center "> <i class="fa fa-2x fa-bar-chart" aria-hidden="true"></i> </div>
                                 </a>
                             </div>
                             <div class="media-body">
@@ -167,7 +193,7 @@
                         <div class="media">
                             <div class="media-left ">
                                 <a href="#">
-                                    <div class="smallpict"></div>
+                                    <div class="small2"> <img class="imgNew" src="Filtering-Business-data_icon.png"> </div>
                                 </a>
                             </div>
                             <div class="media-body">
@@ -179,7 +205,7 @@
                         <div class="media">
                             <div class="media-left ">
                                 <a href="#">
-                                    <div class="smallpict"></div>
+                                    <div class="small2"><img class="imgNew" src="images/Better-Communication_icon.png"> </div>
                                 </a>
                             </div>
                             <div class="media-body">
@@ -194,7 +220,7 @@
                         <div class="media">
                             <div class="media-left ">
                                 <a href="#">
-                                    <div class="smallpict"></div>
+                                    <div class="small2"><img class="imgNew" src="images/Well-analyzing-team_icon.png"></div>
                                 </a>
                             </div>
                             <div class="media-body">
@@ -206,7 +232,7 @@
                         <div class="media">
                             <div class="media-left ">
                                 <a href="#">
-                                    <div class="smallpict"></div>
+                                    <div class="small2"><img class="imgNew" src="images/24-hour-support_ico.png"></div>
                                 </a>
                             </div>
                             <div class="media-body">
@@ -218,7 +244,7 @@
                         <div class="media">
                             <div class="media-left ">
                                 <a href="#">
-                                    <div class="smallpict"></div>
+                                    <div class="small2"><img class="imgNew" src="images/24-hour-support_ico.png"></div>
                                 </a>
                             </div>
                             <div class="media-body">
@@ -233,8 +259,8 @@
                     </div>
                 </div>
                 <div class="row ">
-                    <div class="col-md-4 col-xs-4 col-xs-offset-8 col-md-offset-8 ">
-                        <div> <img class="image-responsive" src="images/blue-shape.png"> <img class=" image-responsive" src="images/orange-shape.png "> </div>
+                    <div class="rel col-md-4  col-md-offset-8 ">
+                        <div> <img class="img2 img-responsive " src="images/blue-shape.png"> <img class="pull-right img-responsive" src="images/orange-shape.png "> </div>
                     </div>
                 </div>
             </div>
@@ -405,6 +431,7 @@
             <p class="text-center"> Business LTD All Right RESERVED </p>
         </div>
     </section>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 </body>
 
 </html>
